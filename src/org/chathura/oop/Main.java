@@ -4,8 +4,8 @@ public class Main {
     public static void main(String[] args) {
 
         Phone  iPhone=new Phone();
-        iPhone.name="iPhone 11";
-        System.out.println(iPhone.name);
+        iPhone.setName("iPhone 7");
+        System.out.println(iPhone.getName());
         iPhone.playMusic("Shake it Off");
     }
 }
