@@ -6,6 +6,13 @@ public class Phone {
     int memory;
     int camera;
 
+    public Phone(String name, int screenSize, int memory, int camera) {
+        this.name = name;
+        this.screenSize = screenSize;
+        this.memory = memory;
+        this.camera = camera;
+    }
+
     public void playMusic (String trackName){
         System.out.println("Now playing "+trackName);
     }
