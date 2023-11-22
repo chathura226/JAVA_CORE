@@ -1,5 +1,7 @@
 package org.chathura.collections;
 
+import org.chathura.OOP2.Animal;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -11,6 +13,9 @@ public class Maps {
 
         //for int use Integer . not int
         Map<Integer,String> test=new HashMap<>();
+        Map<Integer, Animal> objectTest=new HashMap<>();
+
+        objectTest.put(2,new Animal("ll","red",2,false));
 
         emailList.put("Chathura","chathura@gmail.com");
         emailList.put("Lakshan","lakshan@gmail.com");

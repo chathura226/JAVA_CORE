@@ -1,10 +1,22 @@
 package org.chathura.loops;
 
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+        ArrayList<String> testArr=new ArrayList<>();
+        testArr.add("Chathura");
+        testArr.add("Lakshan");
+        testArr.add("Nipun");
+
+        //for each
+        for(String student: testArr ){
+            System.out.println(student);
+        }
+
 
         for (int i=0;i<10;i++){
             System.out.println("HI");
@@ -39,5 +51,8 @@ public class Main {
             int num = random.nextInt(20);
             System.out.println(num);
         }
+
+
+
     }
 }
