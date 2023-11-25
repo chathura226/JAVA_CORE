@@ -22,8 +22,10 @@ public class Main {
         carInterface.start();
         carInterface.move(20);
 
-        CarInterface fossilCar=new FossilFuelCar("Mercedes");
+        //since we are implmenting multiple interfaces on FossilFuelClass
+        FossilFuelCar fossilCar=new FossilFuelCar("Mercedes");
         fossilCar.start();
         fossilCar.move(10);
+        fossilCar.printName("dedde");
     }
 }

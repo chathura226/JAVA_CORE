@@ -1,6 +1,6 @@
 package org.chathura.Interfaces;
 
-public class FossilFuelCar implements CarInterface{
+public class FossilFuelCar implements CarInterface,TestInterface{
     private String name;
 
     public String getName() {
@@ -13,6 +13,11 @@ public class FossilFuelCar implements CarInterface{
 
     public FossilFuelCar(String name) {
         this.name = name;
+    }
+
+    @Override
+    public void printName(String name) {
+        System.out.println("Name is "+name);
     }
 
     @Override
