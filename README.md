@@ -1,2 +1,16 @@
 # JAVA_CORE
-## Java Basic Core concepts 
+## Demonstrations of Java Basic Core concepts 
+  Arrays
+  ArrayLists
+  Maps
+  Loops
+  Operators
+  OOP concepts
+    Compositions
+    Static classes
+    Inner Classes
+    Abstract Classes
+  Interfaces
+  Threading
+  Singleton
+  And some challenges
