@@ -1,5 +1,6 @@
 # JAVA_CORE
 ## Demonstrations of Java Basic Core concepts 
+```
   Arrays
   ArrayLists
   Maps
@@ -14,3 +15,4 @@
   Threading
   Singleton
   And some challenges
+```
